@@ -7,7 +7,7 @@ const Rules = () => {
         <div className='flex flex-col items-center gap-4 p-4'>
             <p className='text-5xl font-bold'>Some rules that you need to follow!</p>
         </div>
-        <div className='flex flex-col xl:flex-row xl:justify-center items-center gap-4 xl:p-32'>
+        <div className='flex flex-col xl:flex-row xl:justify-center items-center gap-4 xl:p-32 p-4'>
             <div className='text-xl xl:pr-2 flex flex-col gap-1'>
                 <p className='flex pb-4'>Welcome to VishwaCTF 2025. Please read the rules before you begin.</p>
                 <p className='flex'>-The flag format is VishwaCTF, unless specified otherwise.</p>

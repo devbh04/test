@@ -6,7 +6,7 @@ export default function About() {
       {/* Auto-scrollable Content */}
       <div className="scroll-container"> {/* Move container down */}
         {/* Heading Section with Red Background and Fade Effect */}
-        <div className="relative py-2 mb-8 sm:mb-12 rounded-md overflow-hidden">
+        <div className="relative py-2 mt-8 mb-8 sm:mb-12 rounded-md overflow-hidden">
           {/* Fade-out Background */}
           <div
             className="absolute inset-0 bg-gradient-to-r from-red-600 via-red-700 to-red-600 w-full"
