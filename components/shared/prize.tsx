@@ -6,7 +6,7 @@ const Prize = () => {
         <div className='flex justify-center items-center text-white mt-16'>
             <p className='text-5xl'>Prize Details!!</p>
         </div>
-        <div className='flex flex-col xl:flex-row gap-4 justify-center mt-8 xl:mx-96'>
+        <div className='flex flex-col xl:flex-row gap-4 justify-center mt-8 xl:mx-80'>
             <div className='flex flex-col gap-4 bg-red-950 bg-opacity-20 border border-red-700 rounded-lg p-4 m-2 xl:w-1/3 pt-20 pb-20 hover:bg-opacity-0'>
                 <p className='flex justify-center p-2 text-3xl'>1st</p>
                 <p className='flex justify-center text-2xl'>Cash Prize</p>
@@ -57,7 +57,7 @@ const Prize = () => {
                 </div>
             </div>
         </div>
-        <div className='flex flex-col xl:flex-row gap-4 justify-center mt-8 xl:mx-96'>
+        <div className='flex flex-col xl:flex-row gap-4 justify-center mt-8 xl:mx-80'>
             <div className='flex flex-col gap-4 bg-red-950 bg-opacity-20 border border-red-700 rounded-lg p-4 m-2 xl:w-1/3 pt-20 pb-20 hover:bg-opacity-0'>
                 <p className='flex justify-center p-2 text-3xl'>6th to 15th</p>
                 <div className="flex flex-col gap-1">
