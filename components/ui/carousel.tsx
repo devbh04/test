@@ -5,6 +5,7 @@ import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react"
 import { ArrowLeft, ArrowRight } from "lucide-react"
+import Autoplay from 'embla-carousel-autoplay' // Import the Autoplay plugin
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -61,9 +62,10 @@ const Carousel = React.forwardRef<
     const [carouselRef, api] = useEmblaCarousel(
       {
         ...opts,
+        loop: true, // Enable infinite loop
         axis: orientation === "horizontal" ? "x" : "y",
       },
-      plugins
+      [Autoplay({ delay: 4000 })] // Add Autoplay plugin with 2-second interval
     )
     const [canScrollPrev, setCanScrollPrev] = React.useState(false)
     const [canScrollNext, setCanScrollNext] = React.useState(false)
@@ -259,4 +261,4 @@ export {
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
-}
+} ;

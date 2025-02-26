@@ -84,19 +84,19 @@ const AppBar = () => {
       >
         <Link
           href={"https://play.vishwactf.com"}
-          className='text-md border border-red-800 px-4 py-2 rounded-md hover:bg-red-800 hover:bg-opacity-30 cursor-pointer'
+          className='text-lg border border-red-800 px-4 py-2 rounded-md hover:bg-red-800 hover:bg-opacity-30 cursor-pointer'
         >
           Play
         </Link>
         <Link
           href={"https://kzmkx37voyg2w8bbkuwa.lite.vusercontent.net/"}
-          className='text-md border border-red-800 px-4 py-2 rounded-md hover:bg-red-800 hover:bg-opacity-30 cursor-pointer'
+          className='text-lg border border-red-800 px-4 py-2 rounded-md hover:bg-red-800 hover:bg-opacity-30 cursor-pointer'
         >
           Leaderboard
         </Link>
-        <Link href={"/events"} className='text-md border border-red-800 px-4 py-2 rounded-md hover:bg-red-800 hover:bg-opacity-30 cursor-pointer'>Events</Link>
-        <Link href={"/heroes"} className='text-md border border-red-800 px-4 py-2 rounded-md hover:bg-red-800 hover:bg-opacity-30 cursor-pointer'>Our Heroes</Link>
-        <Link href={"/about"} className='text-md border border-red-800 px-4 py-2 rounded-md hover:bg-red-800 hover:bg-opacity-30 cursor-pointer'>About</Link>
+        <Link href={"/events"} className='text-lg border border-red-800 px-4 py-2 rounded-md hover:bg-red-800 hover:bg-opacity-30 cursor-pointer'>Events</Link>
+        <Link href={"/heroes"} className='text-lg border border-red-800 px-4 py-2 rounded-md hover:bg-red-800 hover:bg-opacity-30 cursor-pointer'>Our Heroes</Link>
+        <Link href={"/about"} className='text-lg border border-red-800 px-4 py-2 rounded-md hover:bg-red-800 hover:bg-opacity-30 cursor-pointer'>About</Link>
       </div>
     </div>
   );

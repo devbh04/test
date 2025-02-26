@@ -3,7 +3,7 @@ import { SponsorBox } from './sponsorbox'
 
 const SponsorSection = () => {
   return (
-    <div className="xl:-ml-10">
+    <div className="xl:-ml-10 p-6">
         <div className="flex justify-center items-center mt-8 xl:mt-12">
           <p className="text-3xl xl:text-5xl">Our Sponsors</p>
         </div>

@@ -25,8 +25,8 @@ const Rules = () => {
                 <Image
                     src='/images/rules.gif'
                     alt='/images/rules.gif'
-                    height={1000}
-                    width={1000}
+                    height={800}
+                    width={800}
                     className='rounded-lg'
                 />
             </div>

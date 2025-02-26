@@ -20,8 +20,8 @@ export function TitleBox() {
       <Image
         src={"/images/vishwactf_h1_logo.png"}
         alt={"/images/vishwactf_h1_logo.png"}
-        height={800}
-        width={800}
+        height={700}
+        width={700}
         className="relative z-30 drop-shadow-lg p-4"
       />
 

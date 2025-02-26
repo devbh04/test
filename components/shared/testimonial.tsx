@@ -1,24 +1,37 @@
 import React, { useEffect, useState } from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 
+// Updated testimonials array with data from the CSV
 const testimonials = [
   {
     id: 1,
-    name: 'John Doe',
-    role: 'CEO, Company A',
-    text: 'This is an amazing product! It has completely transformed our workflow.',
+    name: 'Team Cybershadows',
+    text: 'Great learning opportunity',
   },
   {
     id: 2,
-    name: 'Jane Smith',
-    role: 'CTO, Company B',
-    text: 'The support team is fantastic. They are always ready to help!',
+    name: 'Team Enoxis',
+    text: 'You people are doing great, so excited for THE VISHWACTF25',
   },
   {
     id: 3,
-    name: 'Alice Johnson',
-    role: 'Product Manager, Company C',
-    text: 'Highly recommend this service. It’s been a game-changer for us.',
+    name: 'Team Secure Mavericks',
+    text: 'It was a very good experience to begin my ctf path with on the way to solve challenges learnt some new tools.',
+  },
+  {
+    id: 4,
+    name: 'Team MKBNJ',
+    text: 'Had an amazing experience and got to learn a lot. Keep more coming!!',
+  },
+  {
+    id: 5,
+    name: 'Team Kakashi',
+    text: 'It was very good experience, and I learned a lot from it.',
+  },
+  {
+    id: 6,
+    name: 'Umair Shaikh Shabiul Hasan',
+    text: 'If anybody interested in this participate it is good to gain the knowledge of cyber security',
   },
 ];
 
@@ -52,7 +65,6 @@ const TestimonialCarousel = () => {
               <div className="border border-red-800 bg-red-600 bg-opacity-20 p-8 rounded-lg shadow-lg mx-4">
                 <p className="text-2xl italic">"{testimonial.text}"</p>
                 <p className="mt-6 text-3xl font-bold">{testimonial.name}</p>
-                <p className="text-lg text-gray-300">{testimonial.role}</p>
               </div>
             </CarouselItem>
           ))}
