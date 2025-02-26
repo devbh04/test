@@ -28,7 +28,7 @@ const AppBar = () => {
 
   return (
     <div
-      className={`bg-black border-2 border-black rounded-xl xl:mt-4 xl:mx-64 m-4 xl:rounded-full bg-opacity-90 fixed top-0 left-0 right-0 z-50 flex flex-col xl:flex-row items-center justify-between transition-all duration-300  ${
+      className={`bg-black border-2 border-black rounded-xl xl:mt-4 xl:mx-40 m-4 xl:rounded-full bg-opacity-90 fixed top-0 left-0 right-0 z-50 flex flex-col xl:flex-row items-center justify-between transition-all duration-300  ${
         isScrolled ? 'border-red-700' : 'border-black'
       }`}
     >

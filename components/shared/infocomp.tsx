@@ -61,7 +61,7 @@ export default function InfoCards() {
   ]
 
   return (
-    <div className="mt-16 grid justify-center mb-40 p-8">
+    <div className="mt-16 grid justify-center mb-40 p-16">
         <div className="flex flex-col gap-6">
           {cards.map((card, index) => (
             <InfoCard key={index} {...card} />
