@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="min-h-screen bg-black bg-radial-gradientevent overflow-hidden">
       {/* Auto-scrollable Content */}
-      <div className="scroll-container pt-16"> {/* Move container down */}
+      <div className="scroll-container"> {/* Move container down */}
         {/* Heading Section with Red Background and Fade Effect */}
         <div className="relative py-2 mb-8 sm:mb-12 rounded-md overflow-hidden">
           {/* Fade-out Background */}
@@ -36,7 +36,7 @@ export default function About() {
             </div>
             <div className="sm:w-1/2 flex justify-center">
               <img
-                src="\images\VishwaCTF-Circular.png" // Replace with your image URL
+                src="\images\cybercell.png" // Replace with your image URL
                 alt="CyberCell"
                 className="w-72 h-auto rounded-lg"
               />
@@ -53,11 +53,11 @@ export default function About() {
                 CTF (Capture The Flag) is a kind of information security competition that challenges contestants to solve a variety of tasks ranging from a scavenger hunt on Wikipedia to basic programming exercises, to hacking your way into a server to steal data. In these challenges, the contestant is usually asked to find a specific piece of text that may be hidden on the server or behind a webpage. This goal is called the flag, hence the name! VishwaCTF is the flagship event of CyberCell VIIT. At its inception, VishwaCTF is the 1st global CTF from Maharashtra and the 3rd largest from India.
               </p>
             </div>
-            <div className="sm:w-1/2">
+            <div className="sm:w-1/2 flex justify-center">
               <img
-                src="\images\vishwactf_h1_logo.png" // Replace with your image URL
+                src="\images\VishwaCTF-Circular.png" // Replace with your image URL
                 alt="VishwaCTF"
-                className="w-full h-auto rounded-lg"
+                className="w-72 h-auto rounded-lg"
               />
             </div>
           </section>
