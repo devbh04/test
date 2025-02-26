@@ -10,13 +10,13 @@ function InfoCard({ title, text, align }) {
       >
         {align === "left" && (
           <div className={"grid p-8 rounded-xl mr-48 ml-4 border-b-2 border-r-2 border-red-800 shadow-red-800 shadow-sm hover:shadow-red-800 hover:shadow-lg transition-shadow duration-300 ease-in-out"}>
-            <div className="flex justify-center text-5xl">{title}</div>
+            <div className="flex justify-center text-4xl xl:text-5xl">{title}</div>
             <div className="flex justify-center text-xl">{text}</div>
           </div>
         )}
         {align === "right" && (
           <div className={"grid p-4 rounded-xl ml-48 mr-4 border-b-2 border-l-2 border-red-800 shadow-red-800 shadow-sm hover:shadow-red-800 hover:shadow-lg transition-shadow duration-300 ease-in-out"}>
-            <div className="flex justify-center text-5xl">{title}</div>
+            <div className="flex justify-center text-4xl xl:text-5xl">{title}</div>
             {title === "3rd" ? (
               <>
                 <div className="flex justify-center text-xl px-2">Largest CTF</div>
@@ -61,7 +61,7 @@ export default function InfoCards() {
   ]
 
   return (
-    <div className="mt-16 grid justify-center mb-10 p-16">
+    <div className="mt-16 grid justify-center mb-10 p-8">
         <div className="flex flex-col gap-6">
           {cards.map((card, index) => (
             <InfoCard key={index} {...card} />
