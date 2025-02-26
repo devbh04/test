@@ -34,8 +34,8 @@ const Prize = () => {
                 <p className='flex justify-center text-2xl'>Cash Prize</p>
                 <p className='flex justify-center text-3xl'>Rs.20,000</p>
                 <div className="flex flex-col gap-1">
-                    <p className='flex justify-center '>BurpBounty Pro Annual License x 1</p>
-                    <p className='flex justify-center '>Lets Defend VIP voucher x 4</p>
+                    <p className='flex justify-center text-center'>BurpBounty Pro Annual License x 1</p>
+                    <p className='flex justify-center text-center'>Lets Defend VIP voucher x 4</p>
                 </div>
             </div>
             <div className='flex flex-col gap-4 bg-red-950 bg-opacity-20 border border-red-700 rounded-lg p-4 m-2 xl:w-max pt-20 pb-20 hover:bg-opacity-0'>
@@ -43,8 +43,8 @@ const Prize = () => {
                 <p className='flex justify-center text-2xl'>Cash Prize</p>
                 <p className='flex justify-center text-3xl'>Rs.10,000</p>
                 <div className="flex flex-col gap-1">
-                    <p className='flex justify-center '>BurpBounty Pro Annual License x 1</p>
-                    <p className='flex justify-center '>Lets Defend VIP voucher x 4</p>
+                    <p className='flex justify-center text-center'>BurpBounty Pro Annual License x 1</p>
+                    <p className='flex justify-center text-center'>Lets Defend VIP voucher x 4</p>
                 </div>
             </div>
             <div className='flex flex-col gap-4 bg-red-950 bg-opacity-20 border border-red-700 rounded-lg p-4 m-2 xl:w-max pt-20 pb-20 hover:bg-opacity-0'>
@@ -52,8 +52,8 @@ const Prize = () => {
                 <p className='flex justify-center text-2xl'>Cash Prize</p>
                 <p className='flex justify-center text-3xl'>Rs.5,000</p>
                 <div className="flex flex-col gap-1">
-                    <p className='flex justify-center '>BurpBounty Pro Annual License x 1</p>
-                    <p className='flex justify-center '>Lets Defend VIP voucher x 4</p>
+                    <p className='flex justify-center text-center'>BurpBounty Pro Annual License x 1</p>
+                    <p className='flex justify-center text-center'>Lets Defend VIP voucher x 4</p>
                 </div>
             </div>
         </div>
@@ -61,8 +61,8 @@ const Prize = () => {
             <div className='flex flex-col gap-4 bg-red-950 bg-opacity-20 border border-red-700 rounded-lg p-4 m-2 xl:w-max pt-20 pb-20 hover:bg-opacity-0'>
                 <p className='flex justify-center p-2 text-3xl'>6th to 15th</p>
                 <div className="flex flex-col gap-1">
-                    <p className='flex justify-center '>Pentesterlab Licenses x 1</p>
-                    <p className='flex justify-center '>Real-World Bug Hunting E-book x 1</p>
+                    <p className='flex justify-center text-center'>Pentesterlab Licenses x 1</p>
+                    <p className='flex justify-center text-center'>Real-World Bug Hunting E-book x 1</p>
                 </div>
             </div>
         </div>
