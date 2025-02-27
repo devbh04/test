@@ -6,7 +6,7 @@ export function HeroCard({ role, name, imglink, insta, ln, x }) {
   return (
     <div className="h-max w-max border border-transparent hover:border-slate-200 rounded-lg m-1 p-4 group">
       {/* Image Container with Fixed Size */}
-      <div className="h-52 w-52 overflow-hidden rounded-full">
+      <div className="h-36 w-36 overflow-hidden rounded-full">
         <img
           src={imglink}
           alt="hero"
