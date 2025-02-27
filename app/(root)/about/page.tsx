@@ -50,7 +50,7 @@ export default function About() {
                 VishwaCTF
               </h2>
               <p className="text-base sm:text-lg">
-                CTF (Capture The Flag) is a kind of information security competition that challenges contestants to solve a variety of tasks ranging from a scavenger hunt on Wikipedia to basic programming exercises, to hacking your way into a server to steal data. In these challenges, the contestant is usually asked to find a specific piece of text that may be hidden on the server or behind a webpage. This goal is called the flag, hence the name! VishwaCTF is the flagship event of CyberCell VIIT. At its inception, VishwaCTF is the 1st global CTF from Maharashtra and the 3rd largest from India.
+              CyberCell VIIT proudly presents VishwaCTF, our flagship cybersecurity competition that has grown into a globally recognized event. From a small campus gathering in 2020, it became Maharashtra’s first global CTF and India’s third-largest in 2021. Since then, VishwaCTF has expanded rapidly, with our latest edition drawing 3,200+ participants from 98+ countries. With strong industry support, we’ve continually raised the challenge complexity, prize pool, and overall experience. As we prepare for VishwaCTF'25, our 5th edition promises to be the most challenging and rewarding yet, further cementing our place in the global CTF community.
               </p>
             </div>
             <div className="sm:w-1/2 flex justify-center">

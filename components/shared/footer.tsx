@@ -32,8 +32,8 @@ const Footer: React.FC = () => {
    <a href="https://www.linkedin.com/in/dev-bhangale?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
      <img src="/images/linkedin.png" alt="ln" className='h-6 w-6 cursor-pointer'/>
    </a>
-   <a href="https://x.com/bhangale_dev?s=09" target="_blank" rel="noopener noreferrer">
-     <img src="/images/twitter.png" alt="twt" className='h-6 w-6 cursor-pointer'/>
+   <a href="https://github.com/devbh04" target="_blank" rel="noopener noreferrer">
+     <img src="/images/gh.png" alt="twt" className='h-6 w-6 cursor-pointer'/>
    </a>
  </div>
 </div>
@@ -47,8 +47,8 @@ const Footer: React.FC = () => {
    <a href="http://www.linkedin.com/in/vyankatesh-jadhav-1b60b52a2" target="_blank" rel="noopener noreferrer">
      <img src="/images/linkedin.png" alt="ln" className='h-6 w-6 cursor-pointer'/>
    </a>
-   <a href="https://twitter.com/vyankatesh_123" target="_blank" rel="noopener noreferrer">
-     <img src="/images/twitter.png" alt="twt" className='h-6 w-6 cursor-pointer'/>
+   <a href="https://github.com/vyankateshjadhav1" target="_blank" rel="noopener noreferrer">
+     <img src="/images/gh.png" alt="twt" className='h-6 w-6 cursor-pointer'/>
    </a>
  </div>
             </div>

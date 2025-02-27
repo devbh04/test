@@ -68,6 +68,26 @@ export default function Heroes() {
       </div>
 
       <div>
+      <h1 className="text-4xl font-semibold flex justify-center">CTF Team</h1>
+      <div>
+        {/* Tech Committee Members */}
+          <div className="flex flex-col xl:flex-row xl:flex-wrap xl:mx-96 justify-center items-center gap-14 p-16">
+            {ctfTeam.map((member, index) => (
+              <HeroCard
+                key={index}
+                imglink={member.imgsrc}
+                role={member.role}
+                name={member.name}
+                insta={member.instalink}
+                ln={member.lilink}
+                x={member.gitlink} // Assuming 'x' is for GitHub
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div>
       <h1 className="text-4xl font-semibold flex justify-center text-center">Non-Tech Committee</h1>
       <div>
         {/* Tech Committee Members */}
@@ -448,5 +468,56 @@ const nonTechCommittee = [
     gitlink: "https://github.com/Yash-dev33",
     lilink: "https://www.linkedin.com/in/yash-jogdand-aaa78b28a/",
     instalink: "https://www.instagram.com/ssup.yash33",
+  },
+];
+
+const ctfTeam = [
+  {
+    name: "Aaditya Chunekar",
+    role: "CTF Team",
+    imgsrc: "https://i.postimg.cc/MKp8tyQq/aaditya-chunekar-ctf-2307-Aaditya-Chunekar.jpg",
+    gitlink: "https://github.com/Aaditya-Chunekar",
+    lilink: "https://www.linkedin.com/in/aaditya-chunekar-621974312/",
+    instalink: "https://www.instagram.com/aadityachunekar?igsh=NDV0NWo2dXoyYnYx&utm_source=qr",
+  },
+  {
+    name: "Soham Kolte",
+    role: "CTF Team",
+    imgsrc: "https://i.postimg.cc/mDnrR8M3/Soham-Kolte-CTF-SOHAM-KOLTE.jpg",
+    gitlink: "https://github.com/sohamcodes26",
+    lilink: "https://www.linkedin.com/in/soham-kolte-675433289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    instalink: "https://www.instagram.com/isoham_123?igsh=YTQwZjQ0NmI0OA==",
+  },
+  {
+    name: "Dhananjay Chitale",
+    role: "CTF Team",
+    imgsrc: "https://i.postimg.cc/7Yk5LtdX/IMG-20240717-WA0032-Dhananjay-Chitale.jpg",
+    gitlink: "https://github.com/DChitale",
+    lilink: "https://www.linkedin.com/in/dhananjay-chitale",
+    instalink: "https://www.instagram.com/dhananjay.chitale?igsh=a2Y4YzlncHNnbjQ=",
+  },
+  {
+    name: "Sruti Totawad",
+    role: "CTF Team",
+    imgsrc: "https://i.postimg.cc/26W5knxP/Sruti-Totawad-CTF-C-60-Sruti-Totawad.jpg",
+    gitlink: "https://github.com/sruti0435",
+    lilink: "https://www.linkedin.com/in/sruti-totawad-892261213",
+    instalink: "https://www.instagram.com/sruti_3504/",
+  },
+  {
+    name: "Satyajit Borade",
+    role: "CTF Team",
+    imgsrc: "https://i.postimg.cc/0jqybrWr/Satyajit-Borade-CTF-SATYAJIT-BORADE.jpg",
+    gitlink: "https://github.com/BitsnBytes99",
+    lilink: "https://www.linkedin.com/in/satyajit-borade-a7294b278/",
+    instalink: "https://www.instagram.com/_satya_435/",
+  },
+  {
+    name: "Raj Barshikar",
+    role: "CTF Team",
+    imgsrc: "https://i.postimg.cc/Vk7vDf6H/Raj-Barshikar-CTF.jpg",
+    gitlink: "https://github.com/RajBarshikar",
+    lilink: "https://www.linkedin.com/in/raj-lalitkumar-barshikar-a688b6218/",
+    instalink: "https://www.instagram.com/calm_soul.1806/",
   },
 ];

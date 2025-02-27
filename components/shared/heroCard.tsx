@@ -25,7 +25,7 @@ export function HeroCard({ role, name, imglink, insta, ln, x }) {
           <img src="/images/linkedin.png" alt="ln" className="h-6 w-6 cursor-pointer" />
         </a>
         <a href={x} target="_blank" rel="noopener noreferrer">
-          <img src="/images/twitter.png" alt="twt" className="h-6 w-6 cursor-pointer" />
+          <img src="/images/gh.png" alt="twt" className="h-6 w-6 cursor-pointer" />
         </a>
       </div>
     </div>
