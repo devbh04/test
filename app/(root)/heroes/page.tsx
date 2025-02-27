@@ -68,7 +68,7 @@ export default function Heroes() {
       </div>
 
       <div>
-      <h1 className="text-4xl font-semibold flex justify-center">Non-Tech Committee</h1>
+      <h1 className="text-4xl font-semibold flex justify-center text-center">Non-Tech Committee</h1>
       <div>
         {/* Tech Committee Members */}
           <div className="flex flex-col xl:flex-row xl:flex-wrap xl:mx-96 justify-center items-center gap-14 p-16">
