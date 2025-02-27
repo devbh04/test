@@ -26,7 +26,7 @@ export function TitleBox() {
       />
 
       <div className="relative z-30 xl:-ml-10">
-        <CountDown providedTargetDate={"2025-02-08T23:59:59"} />
+        <CountDown providedTargetDate={"2025-03-04T15:59:59Z"} />
       </div>
 
       <div className="text-center mt-10 text-neutral-300 relative z-30 flex gap-10">
