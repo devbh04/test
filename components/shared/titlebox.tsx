@@ -31,7 +31,7 @@ export function TitleBox() {
 
       <div className="text-center mt-10 text-neutral-300 relative z-30 flex gap-10">
         <button className="text-red-200 border border-red-800 bg-red-800 bg-opacity-40 rounded-md px-4 p-2 text-2xl cursor-pointer drop-shadow-lg">Register</button>
-        <button className="text-red-200 border border-red-800 bg-red-800 bg-opacity-40 rounded-md px-2 p-2 text-2xl cursor-pointer drop-shadow-lg">Join Discord</button>
+        <a href="https://discord.com/invite/KjsqfMwJKR" className="text-red-200 border border-red-800 bg-red-800 bg-opacity-40 rounded-md px-2 p-2 text-2xl cursor-pointer drop-shadow-lg">Join Discord</a>
       </div>
     </div>
   );
